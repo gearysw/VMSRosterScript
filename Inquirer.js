@@ -18,3 +18,10 @@ function updateInquirer() {
         
 //     });
 // }
+
+function moveEntry() {
+    let ss = SpreadsheetApp.getActive();
+    let sh0 = ss.getSheetByName('Sign up form');
+    let sh1 = ss.getSheetByName('Inquirer');
+    
+}
