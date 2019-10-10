@@ -6,7 +6,7 @@ function updateInquirer() {
     if (lastRow > 1) { // execute script 
         let inquirerEmails = [];
         for (let i = 2; i <= lastRow; i++) {
-            let email = newSignUpSheet.getRange(lastRow, 1);
+            let email = newSignUpSheet.getRange(lastRow, 2);
             inquirerEmails.push(email);
             Logger.log(inquirerEmails);
         }
